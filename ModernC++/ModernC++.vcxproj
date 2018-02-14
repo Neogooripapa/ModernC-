@@ -203,7 +203,10 @@
     <ClCompile Include="26.보편 참조에 대한 중복적재를 피하라.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="27.보편 참조에 대한 중복적재 대신 사용할 수 있는 기법들을 알아 두라.cpp" />
+    <ClCompile Include="27.보편 참조에 대한 중복적재 대신 사용할 수 있는 기법들을 알아 두라.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="28.참조 축약을 숙지하라.cpp" />
     <ClCompile Include="3.decltype의 작동 방식.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
