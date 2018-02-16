@@ -99,5 +99,11 @@
     <ClCompile Include="28.참조 축약을 숙지하라.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="29.이동 연산이 존재하지 않고, 저렴하지 않고, 적용되지 않는다고 가정하라.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="30.완벽 전달이 실패하는 경우를 숙지하라.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
