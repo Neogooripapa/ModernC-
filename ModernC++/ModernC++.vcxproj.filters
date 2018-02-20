@@ -105,5 +105,8 @@
     <ClCompile Include="30.완벽 전달이 실패하는 경우를 숙지하라.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="31.기본 갈무리 모드를 피하라.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
