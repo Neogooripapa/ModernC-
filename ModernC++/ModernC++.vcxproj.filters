@@ -108,5 +108,8 @@
     <ClCompile Include="31.기본 갈무리 모드를 피하라.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="32.객체를 클로저 안으로 이동하려면 초기화 갈무리를 사용하라.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

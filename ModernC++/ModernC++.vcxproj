@@ -244,6 +244,7 @@
     <ClCompile Include="31.기본 갈무리 모드를 피하라.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="32.객체를 클로저 안으로 이동하려면 초기화 갈무리를 사용하라.cpp" />
     <ClCompile Include="4연역된 형식을 파악하는 방법.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
