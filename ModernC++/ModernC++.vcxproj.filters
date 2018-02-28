@@ -114,5 +114,8 @@
     <ClCompile Include="33.forward를 통해서 전달할 auto(더블래퍼런스)매개변수에는 decltype을 사용하라.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="34.bind보다 람다를 선호하라.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
