@@ -183,8 +183,30 @@ void foo4()
 //2. 다형적 함수 객체 : 바인드 객체에 대한 함수 호출 연산자는 완벽 전달을 사용하기 때문에 그 어떤 형식의 인수들도 받을 수 있다.
 //   (단 항목30에서 설명한 완벽 전달의 제약 안에서) 이는 객체를 템플릿화된 함수 호출 연산자와 묶으려 할때 유용하다.
 
-
+class PolyWidget
+{
+public:
+	template<typename T>
+	void operator()(const T& param) const
+	{}
+};
 
 void main()
 {
+	using namespace std::placeholders;
+
+	PolyWidget pw;
+
+	auto boundPW = std::bind(pw, _1);
+
+	//C++11의 람다로는 이런 일이 불가능하다.
+	boundPW(1930);
+	boundPW(nullptr);
+	boundPW("RoseBud");
+
+	//C++14에서는 가능
+	auto boundPW2 = [pw](const auto& param)
+	{
+		pw(param);
+	};
 }
