@@ -123,5 +123,8 @@
     <ClCompile Include="36.비동기성이 필수일 때에는 std  launch  async를 지정하라.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="37.std thread들을 모든 경로에서 합류 불가능하게 만들어라.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

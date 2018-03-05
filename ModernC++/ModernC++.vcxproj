@@ -256,7 +256,10 @@
     <ClCompile Include="35.스레드 기반 프로그래밍보다 과제 기반 프로그래밍을 선호하라.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="36.비동기성이 필수일 때에는 std  launch  async를 지정하라.cpp" />
+    <ClCompile Include="36.비동기성이 필수일 때에는 std  launch  async를 지정하라.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="37.std thread들을 모든 경로에서 합류 불가능하게 만들어라.cpp" />
     <ClCompile Include="4연역된 형식을 파악하는 방법.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
