@@ -129,5 +129,8 @@
     <ClCompile Include="38.스레드 핸들 소멸자들의 다양한 행동 방식을 주의하라.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="39.단발성 사건 통신에는 void 미래 객체를 고려하라.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
